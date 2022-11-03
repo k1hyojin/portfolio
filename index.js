@@ -29,7 +29,7 @@ const portfolio = {lists:
           title:"Yellow Pet (관리자)",
           subtitle:"동적인 메인 페이지 및 서브 페이지를 구현하기 위한 관리자 페이지",
           tools:"HTML, SaSS, Vue.js, javascript, Ajax, Json, CKeditor",
-          concept:"배너, FAQ, 회원관리, 상품등록, 사이즈 정보 등 다양한 기능을 수정하고 관리할 수 있도록 제작된 페이지 입니다.<br>모든 페이지는 Back-end와 함께 제작하였고 My-sql을 사용하여 데이터를 관리합니다.",
+          concept:"배너, FAQ, 회원관리, 상품등록, 사이즈 정보 등 다양한 기능을 수정하고 관리할 수 있도록 제작된 페이지 입니다.<br>모든 페이지는 Back-end와 함께 제작하였고 My-sql을 사용하여 데이터를 관리합니다.<br>< 아이디:master,비밀번호:admin2 >로 CRUD기능은 제한된 관리자 모드로 로그인하실 수 있습니다. ",
           links:"http://bbooooh.dothome.co.kr/portfolio/shop/adm/"
       },
       {
