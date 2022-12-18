@@ -344,18 +344,17 @@ header{
     }
 }
 .portfolio_card{
-    @include base(calc(var(--cardw)*7.5),800px ,inline-flex);
+    @include base(calc(var(--cardw)*9),800px ,inline-flex);
     @include flex(row nowrap,center ,center );
     margin-top: 60px;
     $o:1;
-    @while($o<8){
+    @while($o<9){
         &>li:nth-of-type(#{$o}){
             @include base(var(--cardw),var(--cardh) ,block );
             box-shadow: -8px -25px 30px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
             margin-right: 10px;
             position: relative;
-            // background: url("./img/p#{$o}.jpg") no-repeat center center;
         }
         $o:$o+1;
     }

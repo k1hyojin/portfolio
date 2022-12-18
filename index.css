@@ -504,7 +504,7 @@ header {
 }
 
 .portfolio_card {
-  width: calc(var(--cardw) * 7.5);
+  width: calc(var(--cardw) * 9);
   height: 800px;
   display: inline-flex;
   flex-flow: row nowrap;
@@ -567,6 +567,15 @@ header {
   position: relative;
 }
 .portfolio_card > li:nth-of-type(7) {
+  width: var(--cardw);
+  height: var(--cardh);
+  display: block;
+  box-shadow: -8px -25px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+.portfolio_card > li:nth-of-type(8) {
   width: var(--cardw);
   height: var(--cardh);
   display: block;
