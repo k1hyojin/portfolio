@@ -504,7 +504,7 @@ header {
 }
 
 .portfolio_card {
-  width: calc(var(--cardw) * 9);
+  width: calc(var(--cardw) * 8.5);
   height: 800px;
   display: inline-flex;
   flex-flow: row nowrap;

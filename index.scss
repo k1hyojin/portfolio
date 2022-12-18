@@ -344,7 +344,7 @@ header{
     }
 }
 .portfolio_card{
-    @include base(calc(var(--cardw)*9),800px ,inline-flex);
+    @include base(calc(var(--cardw)*8.5),800px ,inline-flex);
     @include flex(row nowrap,center ,center );
     margin-top: 60px;
     $o:1;
